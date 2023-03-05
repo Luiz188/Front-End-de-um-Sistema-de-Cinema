@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/seats.css"/>
+    <title>Cadeiras avatar</title>
+  </head>
+  <body>
+
+    <header class="header">
+        <div class="containerH">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="img/logo star dimenor.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Homepage</a></li>
+                                <li><a href="./signup.html">Cadastre-se</a></li>
+                                <li><a href="./login.html">Login</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <a href="./login.html"><span class="icon_profile"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    
+    <div class="movie-container">
+      <select id="movie">
+        <option value="10">GATO DE BOTAS 2: O ÚLTIMO PEDIDO ($10)</option>
+      </select>
+    
+          <br />
+          <br />
+
+          <select id="sala">
+            <option>Sala 1</option>
+            <option>Sala 2</option>
+            <option>Sala 3</option>
+          </select>
+    
+          <select id="horáio">
+            <option>9:00  AM</option>
+            <option>11:00 AM</option>
+            <option>13:00 PM</option>
+          </select>
+        </div>
+
+
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+      </li>
+
+      <li>
+        <div class="seat selected"></div>
+        <small>Selecionado</small>
+      </li>
+
+      <li>
+        <div class="seat occupied"></div>
+        <small>Ocupado</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="screen"></div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      Voce selecionou <span id="count">0</span> cadeiras pelo preço de R$<span id="total">0</span>
+    </p>
+
+    <br />
+
+    <a href="#" class="watch-btn"><span>Comprar seu(s) ingresso(s)</span> 
+      <i class="fa fa-angle-right"></i></a>
+
+    <script src="js/seats.js"></script>
+  </body>
+</html>
